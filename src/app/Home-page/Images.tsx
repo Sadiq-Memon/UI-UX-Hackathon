@@ -1,8 +1,10 @@
 import React from 'react'
 import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
+
 
 interface ImageProps {
-  src: string;
+  src: string | StaticImageData;
   alt: string;
   Heading: string;
   price: string;
