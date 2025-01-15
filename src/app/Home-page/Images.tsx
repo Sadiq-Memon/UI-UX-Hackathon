@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 
 interface ImageProps {
-  src: any;
+  src: string;
   alt: string;
   Heading: string;
   price: string;
