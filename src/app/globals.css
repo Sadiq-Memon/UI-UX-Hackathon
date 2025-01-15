@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Clash Display';
+  src: url('/src\app\ClashDisplay-Light.otf') format('.otf');
+}
+
+.font {
+  font-family: 'Clash Display', sans-serif;
+}
+
+
